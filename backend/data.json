@@ -1,0 +1,192 @@
+{
+  "nodes": {
+    "root": {
+      "id": "root",
+      "content": "🌳 Zoomy Demo",
+      "note": "Explore all features of Zoomy with this demo data.",
+      "children": [
+        "demo-1",
+        "demo-2",
+        "demo-3",
+        "demo-4",
+        "demo-5"
+      ],
+      "parent": null,
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [],
+      "color": null
+    },
+    "demo-1": {
+      "id": "demo-1",
+      "content": "✨ Core Features #features",
+      "note": "Manage items with infinite nesting depth.",
+      "children": [
+        "demo-1-1",
+        "demo-1-2"
+      ],
+      "parent": "root",
+      "completed": false,
+      "starred": true,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1773175292.4120302,
+      "tags": [
+        "#features"
+      ],
+      "color": null
+    },
+    "demo-1-1": {
+      "id": "demo-1-1",
+      "content": "Unicode Tag Support: #geçişsonrası #study",
+      "note": "Full Unicode support ensures tags with special characters work perfectly.",
+      "children": [],
+      "parent": "demo-1",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1773175268.4746954,
+      "tags": [
+        "#geçişsonrası",
+        "#study"
+      ],
+      "color": null
+    },
+    "demo-1-2": {
+      "id": "demo-1-2",
+      "content": "Mention Support @User",
+      "note": "Tag people or groups using the @ symbol.",
+      "children": [],
+      "parent": "demo-1",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [
+        "@User"
+      ],
+      "color": null
+    },
+    "demo-2": {
+      "id": "demo-2",
+      "content": "✅ Completed Items (Visual Experience)",
+      "note": "This item is marked as completed.",
+      "children": [
+        "demo-2-1"
+      ],
+      "parent": "root",
+      "completed": true,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1773175268.7772417,
+      "tags": [
+        "#completed"
+      ],
+      "color": null
+    },
+    "demo-2-1": {
+      "id": "demo-2-1",
+      "content": "Completed sub-item (0.6 opacity and strike-through)",
+      "note": "",
+      "children": [],
+      "parent": "demo-2",
+      "completed": true,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [],
+      "color": null
+    },
+    "demo-3": {
+      "id": "demo-3",
+      "content": "🖱️ Metadata & Hover Effect",
+      "note": "Hover over this item to see creation/update dates on the right.",
+      "children": [],
+      "parent": "root",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710107200,
+      "tags": [
+        "#metadata"
+      ],
+      "color": null
+    },
+    "demo-4": {
+      "id": "demo-4",
+      "content": "📂 Infinite Nesting (Use Tab to Indent)",
+      "note": "",
+      "children": [
+        "demo-4-1"
+      ],
+      "parent": "root",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [],
+      "color": null
+    },
+    "demo-4-1": {
+      "id": "demo-4-1",
+      "content": "Going deeper...",
+      "note": "",
+      "children": [
+        "demo-4-1-1"
+      ],
+      "parent": "demo-4",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [],
+      "color": null
+    },
+    "demo-4-1-1": {
+      "id": "demo-4-1-1",
+      "content": "Bottom level item",
+      "note": "No limits to nesting!",
+      "children": [],
+      "parent": "demo-4-1",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1710103200,
+      "tags": [],
+      "color": null
+    },
+    "demo-5": {
+      "id": "demo-5",
+      "content": "📏 Smart Width Test",
+      "note": "If this item had a very long line, the container would expand up to 80% width.",
+      "children": [],
+      "parent": "root",
+      "completed": false,
+      "starred": false,
+      "collapsed": false,
+      "created_at": 1710103200,
+      "updated_at": 1773175268.780163,
+      "tags": [
+        "#width"
+      ],
+      "color": null
+    }
+  },
+  "starred_nodes": [
+    "demo-1"
+  ],
+  "settings": {
+    "theme": "dark"
+  }
+}
