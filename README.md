@@ -3,6 +3,8 @@
 ## What is MindTree?
 A fully self-hosted, infinitely nested outliner — inspired by WorkFlowy — that runs locally on your machine. No cloud, no subscription, no data leaving your computer.
 
+<img width="917" height="705" alt="image" src="https://github.com/user-attachments/assets/ac3dcadf-6ccf-47d3-b3cc-2c0eccfa3b91" />
+
 ---
 
 ## Architecture
